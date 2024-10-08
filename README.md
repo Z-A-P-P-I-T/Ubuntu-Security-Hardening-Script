@@ -57,3 +57,9 @@ The script provides prompts for the following manual steps:
 Adding separate partitions for /home, /tmp, and /var for improved filesystem isolation and security.
 Reviewing and updating sysctl values as recommended by Lynis.
 Further customizing audit rules in auditd for more granular monitoring.
+
+Notes
+Ensure the script is executed with root privileges for all the changes to take effect.
+Some changes, such as partitioning and fine-tuning sysctl values, still require manual intervention as they are environment-specific.
+Review the script’s output and log files (e.g., /var/log/rkhunter.log) to ensure all components were applied successfully.
+This overview provides the essential information needed for a README file for the script, summarizing its functions and usage while noting the manual steps required.
